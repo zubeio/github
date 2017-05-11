@@ -458,8 +458,8 @@
                 "/marketplace_listing/stubbed/plans/:id/accounts",
                 "/marketplace_listing/accounts/:id",
                 "/marketplace_listing/stubbed/accounts/:id",
-                "/marketplace_listing/user/marketplace_purchases",
-                "/marketplace_listing/user/marketplace_purchases/stubbed"
+                "/user/marketplace_purchases",
+                "/user/marketplace_purchases/stubbed"
             ],
             "application/vnd.github.cloak-preview+json": [
                 "/search/commits"
@@ -2572,18 +2572,6 @@
             "params": {
                 "$id": null
             },
-            "description": ""
-        },
-        "get-user-purchases": {
-            "url": "/marketplace_listing/user/marketplace_purchases",
-            "method": "GET",
-            "params": {},
-            "description": ""
-        },
-        "get-stubbed-user-purchases": {
-            "url": "/marketplace_listing/user/marketplace_purchases/stubbed",
-            "method": "GET",
-            "params": {},
             "description": ""
         }
     },
@@ -6858,6 +6846,18 @@
                 }
             },
             "description": "Get all users"
+        },
+        "get-marketplace-purchases": {
+            "url": "/user/marketplace_purchases",
+            "method": "GET",
+            "params": {},
+            "description": ""
+        },
+        "get-stubbed-marketplace-purchases": {
+            "url": "/user/marketplace_purchases/stubbed",
+            "method": "GET",
+            "params": {},
+            "description": ""
         },
         "get-orgs": {
             "url": "/user/orgs",
