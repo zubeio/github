@@ -483,7 +483,7 @@
                 "/repos/:owner/:repo/import"
             ],
             "application/vnd.github.machine-man-preview": [
-                "/integration/installations",
+                "/app/installations",
                 "/installations/:installation_id/access_tokens",
                 "/integration/identity/user",
                 "/installation/repositories",
@@ -1640,7 +1640,7 @@
     },
     "integrations": {
         "get-installations": {
-            "url": "/integration/installations",
+            "url": "/app/installations",
             "method": "GET",
             "params": {
                 "$page": null,
