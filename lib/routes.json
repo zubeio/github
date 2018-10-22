@@ -484,7 +484,7 @@
             ],
             "application/vnd.github.machine-man-preview": [
                 "/app/installations",
-                "/installations/:installation_id/access_tokens",
+                "/app/installations/:installation_id/access_tokens",
                 "/integration/identity/user",
                 "/installation/repositories",
                 "/installations/:installation_id/repositories/:repository_id"
@@ -1649,7 +1649,7 @@
             "description": "List the integration's installations. (In preview period. See README.)"
         },
         "create-installation-token": {
-            "url": "/installations/:installation_id/access_tokens",
+            "url": "/app/installations/:installation_id/access_tokens",
             "method": "POST",
             "params": {
                 "$installation_id": null,
