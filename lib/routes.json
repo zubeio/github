@@ -63,7 +63,21 @@
                 "invalidmsg": "",
                 "description": ""
             },
+            "org_id": {
+                "type": "String",
+                "required": true,
+                "validation": "",
+                "invalidmsg": "",
+                "description": ""
+            },
             "repo": {
+                "type": "String",
+                "required": true,
+                "validation": "",
+                "invalidmsg": "",
+                "description": ""
+            },
+            "team_id": {
                 "type": "String",
                 "required": true,
                 "validation": "",
@@ -3282,10 +3296,11 @@
             "description": "Delete team"
         },
         "get-team-members": {
-            "url": "/teams/:id/members",
+            "url": "/organizations/:org_id/team/:team_id/members",
             "method": "GET",
             "params": {
-                "$id": null,
+                "$org_id": null,
+                "$team_id": null,
                 "role": {
                     "type": "String",
                     "required": false,
