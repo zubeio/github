@@ -732,8 +732,8 @@
             "description": "Check an authorization"
         },
         "reset": {
-            "url": "/applications/:client_id/tokens/:access_token",
-            "method": "POST",
+            "url": "/applications/:client_id/token",
+            "method": "PATCH",
             "params": {
                 "$client_id": null,
                 "$access_token": null
