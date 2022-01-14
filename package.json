@@ -26,7 +26,7 @@
     "node": ">=0.4.0"
   },
   "dependencies": {
-    "follow-redirects": "0.0.7",
+    "follow-redirects": "1.14.7",
     "https-proxy-agent": "^5.0.0",
     "mime": "^1.2.11",
     "netrc": "^0.1.4"
